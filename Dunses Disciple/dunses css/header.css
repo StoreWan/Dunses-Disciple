@@ -1,0 +1,230 @@
+.header {
+    display: flex;
+    flex-direction: row;
+}
+.menu-background {
+    z-index: 0;
+    background-color: rgb(242, 245, 247);
+    right: 0px;
+    left: 0px;
+    top: 98px;
+    height: 52px;
+    position: absolute;
+}
+.dunses-logo {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 1;
+    position: absolute;
+}
+
+.header-højre {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.slogan-div {
+    flex: 1;
+}
+
+.slogan {
+    margin-top: 12px;
+    margin-left: 100px;
+    white-space: nowrap;
+    font-family: Roboto, Arial;
+    font-size: 20px;
+}
+
+.sponsorer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: right;
+    align-items: center;
+    margin-left: 1200px;
+}
+
+.dahl-logo {
+    width: 100px;
+    position: absolute;
+    top: 38px;
+    right: 150px;
+}
+.amc-logo {
+    width: 75px;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+
+.dunses-insta {
+    width: 24px;
+    position: absolute;
+    right: 350px;
+    top: 36px;
+}
+
+.dunses-facebook {
+    width: 25px;
+    position: absolute;
+    top: 36px;
+    right: 410px;
+}
+
+.dunses-tiktok {
+    width: 25px;
+    position: absolute;
+    top: 36px;
+    right: 472px;
+}
+
+.dunses-youtube {
+    width: 25px;
+    position: absolute;
+    top: 36px;
+    right: 535px;
+}
+
+.menu {
+    position: absolute;
+    top: 115px;
+    left: 350px;
+
+   }
+   .hold {
+    color: black;
+    background-color: rgb(242, 245, 247);
+    border-color: black;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.15s;
+    padding-left: 5px;
+    padding-right: 14px;
+    border-width: 1px;
+    font-family: Roboto, Arial;
+   }
+   .hold:hover {
+    color: rgb(155, 152, 152);
+   }
+   .hold:active {
+    color: rgb(11, 53, 125);
+   }
+   .Kampe {
+    color: black;
+    background-color: rgb(242, 245, 247);
+    border-color: black;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.15s;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-width: 1px;
+    font-family: Roboto, Arial;
+   }
+   .Kampe:hover {
+    color: rgb(188, 185, 185);
+   }
+   .Kampe:active {
+    color: black
+   }
+   .E-sport {
+    color: black;
+    background-color: rgb(242, 245, 247);
+    border-color: black;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.15s;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-width: 1px;
+    font-family: Roboto, Arial;
+   }
+   .E-sport:hover {
+    color: rgb(188, 185, 185);
+   }
+   .E-sport:active {
+    color: black
+   }
+   .Sponsorerer {
+    color: black;
+    background-color: rgb(242, 245, 247);
+    border-color: black;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.15s;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-width: 1px;
+    font-family: Roboto, Arial;
+   }
+   .Sponsorerer:hover {
+    color: rgb(188, 185, 185);
+   }
+   .Sponsorerer:active {
+    color: black
+   }
+   .række {
+    color: black;
+    background-color: rgb(242, 245, 247);
+    border-color: black;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.15s;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-width: 1px;
+    font-family: Roboto, Arial;
+   }
+    .række:hover {
+      color: rgb(188, 185, 185);
+    }
+    .række:active {
+      color: black
+   }
+    
+   .signings {
+    color: black;
+    background-color: rgb(242, 245, 247);
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.15s;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-width: 1px;
+    font-family: Roboto, Arial;
+   }
+   .signings:hover {
+    color: rgb(188, 185, 185);
+   }
+   .signings:active {
+    color: black
+   }
+   
